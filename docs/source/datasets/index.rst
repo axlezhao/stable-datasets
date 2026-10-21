@@ -54,6 +54,7 @@ Available Datasets
    dtd
    fashion_mnist
    oracle_mnist
+   rendered_sst2
    k_mnist
    medmnist
    awa2

@@ -39,6 +39,7 @@ from .oracle_mnist import OracleMNIST
 
 # from .mnist import MNIST
 # from .places365_small import Places365Small
+from .rendered_sst2 import RenderedSST2
 from .rock_paper_scissor import RockPaperScissor
 from .shapes3d import Shapes3D
 from .small_norb import SmallNORB
@@ -83,6 +84,7 @@ __all__ = [
     "MedMNIST",
     "NotMNIST",
     "OracleMNIST",
+    "RenderedSST2",
     "RockPaperScissor",
     "Shapes3D",
     "SmallNORB",
