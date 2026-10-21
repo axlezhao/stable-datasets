@@ -222,6 +222,8 @@ DATASET_CONFIGS: dict[str, DatasetConfig] = {
     ),
     "fashionmnist": _gray("fashionmnist", "FashionMNIST", 10, mean=[0.2860], std=[0.3530]),
     "kmnist": _gray("kmnist", "KMNIST", 10, mean=[0.1918], std=[0.3483]),
+    "oraclemnist": _gray("oraclemnist", "Oracle-MNIST", 10, mean=[0.2327], std=[0.2841]),
+    "renderedsst2": _rgb("renderedsst2", "Rendered SST2", 2, mean=[0.9664] * 3, std=[0.0847] * 3),
     "pneumoniamnist": _gray(
         "pneumoniamnist",
         "PneumoniaMNIST",
