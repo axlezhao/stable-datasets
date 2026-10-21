@@ -53,6 +53,7 @@ Available Datasets
    cars196
    dtd
    fashion_mnist
+   oracle_mnist
    k_mnist
    medmnist
    awa2
